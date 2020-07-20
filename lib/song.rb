@@ -20,6 +20,8 @@ class Song
     @@artists << artist
     @@genre << genre
 
+    binding.pry
+
 
 
   end
@@ -40,7 +42,7 @@ class Song
 
   def self.genre
     @@genre
-    binding.pry
+    
 
   end
 
