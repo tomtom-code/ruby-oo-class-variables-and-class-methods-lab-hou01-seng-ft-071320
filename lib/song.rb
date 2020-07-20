@@ -28,6 +28,7 @@ class Song
     else
       @@genre_count[self.genre] +=1
     end
+    binding.pry
 
 
 
