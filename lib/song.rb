@@ -32,9 +32,9 @@ class Song
 
   end
 
-  def self.artists
+  def self.artists(artist)
     @@artists
-    binding.pry
+    
 
 
   end
