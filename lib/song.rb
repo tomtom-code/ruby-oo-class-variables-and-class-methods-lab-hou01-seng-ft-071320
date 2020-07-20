@@ -40,6 +40,7 @@ class Song
 
   def self.genre
     @@genre
+    binding.pry
 
   end
 
