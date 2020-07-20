@@ -35,7 +35,7 @@ class Song
 
   def self.artists
     binding.pry
-    @@artists
+    @@artists.uniq
 
 
   end
