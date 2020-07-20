@@ -28,6 +28,15 @@ class Song
     else
       @@genre_count[self.genre] +=1
     end
+
+    if @@artist_count.include?(self.artist) ==false
+      @@artist_count[self.artist]=1
+    else
+      @@artist_count[self.artist] +=1
+    end
+
+
+    
     binding.pry
 
 
@@ -59,7 +68,7 @@ class Song
   def self.genre_count
     @@genre_count
 
-    binding.pry
+    
 
   end
 
