@@ -33,11 +33,13 @@ class Song
   end
 
   def self.artists
+    @@artists
 
 
   end
 
   def self.genre
+    @@genre
 
   end
 
