@@ -20,7 +20,7 @@ class Song
     @@artists << artist
     @@genre << genre
 
-    
+
 
   end
 
