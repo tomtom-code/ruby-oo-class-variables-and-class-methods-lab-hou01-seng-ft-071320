@@ -34,8 +34,7 @@ class Song
 
   def self.artists(artist)
     @@artists
-    
-
+    binding.pry
 
   end
 
