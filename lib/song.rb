@@ -48,12 +48,9 @@ class Song
 
   end
 
-  def self.genre_count
-    binding.pry
-
-  end
 
   def self.genre_count
+    
     binding.pry
 
   end
