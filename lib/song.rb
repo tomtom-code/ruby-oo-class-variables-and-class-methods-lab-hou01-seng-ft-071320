@@ -10,6 +10,7 @@ class Song
     @@count = []
 
     @@count << self
+    binding.pry
 
   end
 
@@ -17,7 +18,7 @@ class Song
 
   def self.count
     @@count
-    
+    binding.pry
   end
 
 
