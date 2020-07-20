@@ -10,7 +10,7 @@ class Song
     @artist = artist
     @genre = genre
 
-    @@count.push(self)
+    @@count << self
 
   end
 
