@@ -35,6 +35,10 @@ class Song
 
   end
 
+  def self.genre
+    
+  end
+
 
 
 
