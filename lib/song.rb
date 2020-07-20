@@ -4,7 +4,7 @@ class Song
 
   @@count = 0
   @@artists = []
-  
+
 
 
   def initialize(name, artist, genre)
@@ -22,7 +22,7 @@ class Song
 
   def self.count
     @@count
-    binding.pry
+    
 
   end
 
